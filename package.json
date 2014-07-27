@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-sentiment",
-  "version": "0.0.2",
+  "version": "0.0.2a",
   "description": "NodeBB Sentiment Plugin analyze posts and giving positive,negative,neutral result.",
   "main": "library.js",
   "repository": {
