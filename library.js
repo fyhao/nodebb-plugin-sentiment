@@ -6,9 +6,13 @@ module.exports.save = function(postData) {
 			// positive
 			console.log('Positive-' + postData.content);
 			// do your business
-		} else {
+		} else if(result.neg > result.pos) {
 			// negative
 			console.log('Negative-' + postData.content);
+			// do your business
+		} else {
+			// neutral
+			console.log('Neutral-' + postData.content);
 			// do your business
 		}
 	});
