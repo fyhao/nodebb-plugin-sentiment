@@ -1,0 +1,35 @@
+{
+  "name": "nodebb-plugin-sentiment",
+  "version": "0.0.1",
+  "description": "NodeBB Sentiment Plugin analyze posts and giving positive,negative,neutral result.",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyhao/nodebb-plugin-sentiment"
+  },
+  "bugs": {
+    "url": "https://github.com/fyhao/nodebb-plugin-sentiment/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "sentiment"
+  ],
+  "author": {
+    "name": "fyhao",
+    "email": "fyhao1@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "unirest": "~0.2.7"
+  },
+  "peerDependencies": {
+  },
+  "readme": "# NodeBB Plugin Sentiment\r\n\r\nNodeBB Sentiment Plugin analyze posts and giving positive,negative,neutral result.\r\n\r\n## Installation\r\n\r\n    npm install nodebb-plugin-sentiment\r\n\r\n\r\n\r\n",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-sentiment@0.0.1",
+  "_from": "nodebb-plugin-sentiment@0.0.1"
+}

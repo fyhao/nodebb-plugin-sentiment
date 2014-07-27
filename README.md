@@ -1,10 +1,10 @@
-# NodeBB Plugin Imgshow
+# NodeBB Plugin Sentiment
 
-A Plugin that let's users embed multimedia content in a post...
+NodeBB Sentiment Plugin analyze posts and giving positive,negative,neutral result.
 
 ## Installation
 
-    npm install nodebb-plugin-imgshow
+    npm install nodebb-plugin-sentiment
 
 
 

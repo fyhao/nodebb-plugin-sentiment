@@ -1,0 +1,18 @@
+{
+      "id": "nodebb-plugin-sentiment"
+    , "name": "NodeBB Sentiment Plugin"
+    , "description": "NodeBB Sentiment Plugin analyze posts and giving positive,negative,neutral result."
+    , "url": "https://github.com/fyhao/nodebb-plugin-sentiment"
+    , "library": "./library.js"
+    
+    
+    
+    , "hooks": [
+        {
+            "hook": "action:post.save"
+            , "method": "save"
+            , "callbacked": true
+            , "priority": 6
+        }
+    ]
+}
